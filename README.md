@@ -13,6 +13,8 @@ Given a set of training examples xi with their labels yt the model will:
 
 ## Gradiant Descent for optimization
 
+![Gradient Descent](GD.PNG)
+
 Read more:
 https://medium.com/@swapnilin/learning-rate-hyperparameter-explained-2c1a619cbd33
 
