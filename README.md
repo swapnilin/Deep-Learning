@@ -23,4 +23,15 @@ While updating the values of weights, we do it with a constant called learning r
 
 Read more how learning rate and gradient descent works:<br>
 https://medium.com/@swapnilin/learning-rate-hyperparameter-explained-2c1a619cbd33
+<br>
+
+## Feature Extraction
+Feature extraction is the transformation of the input data points from the input space to the feature space (high or low dimension) where classification is much easier.
+
+Consider a scenario where each data point is characterized by 20 dimensions. In such cases, discovering an accurate 20-dimensional function to classify the data into two categories becomes time-consuming for the model.
+
+To address this challenge, an alternative approach is employed: the algorithm converts the input to a three-dimensional space. In this transformed space, a classifier can more easily approximate the decision boundary. Later this 3D decision boundary is transformed back to the original 20-dimensional space where it corresponds to a 20-dimensional decision boundary.
+
+It is important to emphasize that the transformed space doesn't necessarily have to be low-dimensional. The choice of the appropriate dimensional space depends on the specific problem and the characteristics of the data.
+Usually, only the last one or two layers of a neural network perform the actual classification. The rest account for feature extraction and transforming the input data into a different space where it is possible to classify the data more easily.
 
