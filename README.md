@@ -13,7 +13,7 @@ Given a set of training examples xi with their labels yt the model will:
 
 ## Gradiant Descent for optimization
 
-<img src="GD.PNG" alt="Gradient Descent" width="300">
+<img src="GD.PNG" alt="Gradient Descent" width="400">
 
 
 Read more:
