@@ -21,6 +21,6 @@ While updating the values of weights, we do it with a constant called learning r
 <img src="Images/GD.PNG" alt="Gradient Descent" width="400">
 
 
-Read more how learning rate and gradient descent works:
+Read more how learning rate and gradient descent works:<br>
 https://medium.com/@swapnilin/learning-rate-hyperparameter-explained-2c1a619cbd33
 
