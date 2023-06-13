@@ -1,6 +1,8 @@
 # Deep-Learning
 Neural Networks and Deep Learning using Tensorflow
 
+## Algorithm Training Steps:
+
 Given a set of training examples xi with their labels yt the model will:
 
 1.	Initialize the classifier with random weight w
@@ -8,4 +10,9 @@ Given a set of training examples xi with their labels yt the model will:
 3.	Compute the loss between the prediction yt and yp
 4.	Adjust the weights 'w' to improve the loss (error)
 5.	Repeat for all training examples.
+
+## Gradiant Descent for optimization
+
+Read more:
+https://medium.com/@swapnilin/learning-rate-hyperparameter-explained-2c1a619cbd33
 
