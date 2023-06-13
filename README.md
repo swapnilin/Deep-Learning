@@ -35,3 +35,9 @@ To address this challenge, an alternative approach is employed: the algorithm co
 It is important to emphasize that the transformed space doesn't necessarily have to be low-dimensional. The choice of the appropriate dimensional space depends on the specific problem and the characteristics of the data.
 Usually, only the last one or two layers of a neural network perform the actual classification. The rest account for feature extraction and transforming the input data into a different space where it is possible to classify the data more easily.
 
+## Activation Functions
+
+Learn about activation functions here:<br>
+https://medium.com/towards-data-science/using-activation-functions-in-neural-nets-c119ad80826
+
+
